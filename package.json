@@ -1,0 +1,31 @@
+{
+  "name": "file-uploading-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MSarvan/file-uploading-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MSarvan/file-uploading-express/issues"
+  },
+  "homepage": "https://github.com/MSarvan/file-uploading-express#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0"
+  },
+  "devDependencies": {
+    "concurrently": "^7.3.0",
+    "nodemon": "^2.0.19"
+  }
+}
